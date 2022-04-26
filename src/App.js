@@ -1,10 +1,11 @@
 import './App.css';
+import Products from './Components/Products';
 
 function App() {
   return (
-    <h1>
-      Hello World
-    </h1>
+    <div>
+      <Products/>
+    </div>
   );
 }
 
