@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/food/static/css/main.39e462b2.css",
+    "main.js": "/food/static/js/main.2f77f203.js",
+    "static/media/hero3.png": "/food/static/media/hero3.48a2753de6bb8c7437bc.png",
+    "static/media/hero2.png": "/food/static/media/hero2.0f876b57f2f78dc40f0c.png",
+    "static/media/potato-chip.jpg": "/food/static/media/potato-chip.37bbb4f85f535caab34f.jpg",
+    "static/media/jollof-rice.jpg": "/food/static/media/jollof-rice.54aacf66f1f95c67e8fa.jpg",
+    "static/media/server.jpg": "/food/static/media/server.4d57d30a10b96ad02df2.jpg",
+    "static/media/pastry-chef.jpg": "/food/static/media/pastry-chef.48bf4e2be5d182e3efbf.jpg",
+    "static/media/burger.jpg": "/food/static/media/burger.c753eda65df284624009.jpg",
+    "static/media/kitchen-manager.jpg": "/food/static/media/kitchen-manager.d7ff69436b1e4c5f6bd9.jpg",
+    "static/media/main-chef.jpg": "/food/static/media/main-chef.9b1c3e3af17f5f0b6b89.jpg",
+    "static/media/fried-rice.jpg": "/food/static/media/fried-rice.011db85aad9328bafd1c.jpg",
+    "static/media/group70Logo.png": "/food/static/media/group70Logo.e969777b7fea414ab5d2.png",
+    "static/media/LaBelleAurore.woff2": "/food/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "index.html": "/food/index.html",
+    "main.39e462b2.css.map": "/food/static/css/main.39e462b2.css.map",
+    "main.2f77f203.js.map": "/food/static/js/main.2f77f203.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39e462b2.css",
+    "static/js/main.2f77f203.js"
+  ]
+}
