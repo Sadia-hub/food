@@ -1,4 +1,4 @@
-import styles from "../Products.module.css"
+import styles from "../Product.module.css"
 const food = [{
     name:"briani",
     url:"https://media.istockphoto.com/photos/authentic-chicken-biryani-with-onion-raita-picture-id516401834?k=20&m=516401834&s=612x612&w=0&h=rNq_YZlj0dya1fvImOvq4NuQiRVOg5WeM6EOMlVaaPg=",
@@ -48,7 +48,7 @@ const food = [{
     price:5000
 },
 ];
-const Products = ()=>{
+const Product = ()=>{
     return (<>
         <div className={styles.container}>
              {
@@ -73,4 +73,4 @@ const Products = ()=>{
         </>);
 }
 
-export default Products;
+export default Product;
