@@ -52,14 +52,14 @@ const Product = ()=>{
     return (<>
         <div className={styles.container}>
              {
-                 food.map((item)=>{
-                     return <div className={styles.box}>
+                 food.map((item,i)=>{
+                     return <div key={i} className={styles.box}>
                                 <div className={styles.imgBox}>
                                     <img src={item.url} alt=""/>
                                 </div>
                                 <div className={styles.content}>
                                     <h2>{item.name}<br/>
-                                    <span>{`Price ${item.price}`}</span></h2>
+                                    <span>{`Price ${item.price}$`}</span></h2>
                                 </div>
                         </div>
                  })
