@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 64px;
+  
+} 
+#contacthead, #infoHead  {
+  margin: 0 1em;
+}
+#fillInfo {
+  margin: 0.7em 1.5em;
+  font-weight: 500;
+}
+.radioButtons {
+  display: flex;
+  flex-direction: column;
+}
+#contactInfoCard {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 0 0 1em 0;
+  max-width: fit-content;
+}
+#contactInfo {
+  background-color: #e6a4207e;
+  color: white;
+  padding-left: 2em;
+  font-weight: 400;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.contactIcons {
+  display: flex;
+  gap: 2em;
+  margin: 32px 0;
+}
+
+.socialContacts {
+  display: flex;
+  gap: 1em;
+  align-items: flex-end;
+  
+}
+#socialContacts {
+  flex-grow: 1;
+  display: flex;
+  gap: 2em;
+  padding: 2em;
+}
+#contactIcon {
+  
+  
+  position: relative;
+  bottom: 0;
+
+}
+#contactIcon:hover {
+  background-color: black;
+  padding: 0.3em;
+  border-radius: 100%;
+
+}
+
+#circle {
+  width: 10em;
+  height: 10em;
+  background-color: black;
+  border-radius: 100% 0 0 0 ;
+  align-items: flex-end;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  column-count: 2;
+  justify-content: center;
+  padding-left: 4em;
+}
+
+#fname, #lname, #mail, #phonenum {
+  border: none;
+  margin-bottom: 3em;
+  padding: 1em;
+  border-bottom: 0.2em solid black;
+  background-color: transparent;
+  max-width: 75%;
+}
+
+#radioButtons {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+
+#contactBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.peopleNum {
+  display: flex;
+  gap: 1em;
+  font-weight: 300;
+  border: 1px solid black;
+  max-width: 50%;
+  padding: 0.2em;
+}
+
+.btnNum {
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.calendarView {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3em;
+  border: 1px solid black;
+  max-width: 50%;
+  margin: 1em 0;
+  padding:0 0.3em;
+  font-weight: 200;
+  font-size: 0.6em;
+}
+
+#opentime {
+  flex-grow: 1;
+}
+
+.textarea {
+  border: none;
+  border-bottom: 2px solid black;
+  max-width: 70%;
+}
+
+.bookTable {
+  background-color: black;
+  color: whitesmoke;
+  max-width: 25%;
+  padding: 1.5em;
+  font-size: 1rem;
+  margin-top: 0.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  #contactInfo, .contactIcons {
+    justify-content: center;
+    
+  }
+  #infoHead, #fillInfo {
+    text-align: center;
+    overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  white-space: normal;
+    
+  }
+}
+@media only screen and ( max-width: 638px) {
+  #fillInfo {
+    font-size: 1.2rem;
+  }
+  #circle {
+    width: 6em;
+    height: 6em;
+  }
+}
+  @media only screen and ( max-width: 520px) {
+   #contactEnd{
+     font-size: 0.75em;
+   }
+   #contacthead {
+    font-size: 1em;
+   }
+   #contactbody, #fillInfo {
+     font-size: 0.40em;
+   }
+   form{
+     
+     justify-content: flex-end;
+     margin-left: 2em;
+   }
+    .bookTable {
+      max-width: 17em;
+    }
+  }
+
+  @media only screen and ( max-width: 380px) {
+    #circle {
+      width: 3em;
+      height: 3em;
+    }
+    .contactIcons {
+      gap: 0.5em;
+      justify-content: flex-end;
+      padding: 0 1em;
+    } 
+    .contactIcons > span, #infoHead {
+      font-size: 0.9em
+    }
+    #contactEnd, #contacthead {
+      font-size: 0.7em;
+    }
+    #fillInfo {
+      color: transparent;
+    }
+  }
+  @media only screen and ( min-width: 1382px) {
+    #contactInfoCard{
+      display: flex;
+      flex-direction: row;
+      font-size: 0.43em;
+      padding-bottom: 0;
+      width: 90vw;
+      
+    }
+    #topContactInfo {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-left: 00.9em;
+      justify-content: flex-start;
+      
+      gap: 2em;
+    }
+    .inputs {
+      display: flex;
+      flex-direction: column;
+     width: 20vw;
+      gap: 1em;
+    }
+    #contacthead {
+      font-size: 1.2em;
+      color: rgba(0, 0, 0, 0.699);
+    }
+    #contactbody {
+      font-size: 0.8em;
+      margin-top: 0;
+    }
+
+    #fname, #lname, #mail, #phonenum {
+      padding: 0.2em;
+    }
+
+    .peopleNum {
+      width: 30vw;
+      font-size: 1.4em;
+    }
+    .calendarView {
+      width: 25vw;
+      font-size: 1.2em;
+    }
+    #contactIcon {
+      font-size: 2em;
+    }
+    #circle {
+      border-radius: 50% 0 50%; 
+    }
+    
+  }
+    
+
+
+
